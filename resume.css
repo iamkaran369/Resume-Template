@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+}
+
+body{
+    background-color:black;
+}
+
+.main{
+    border: 1px solid black;
+    width: 800px;
+    /* height: 95vh; */
+    position: relative;
+    left: 30%;
+    top: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    
+}
+
+.profile-info{
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+    width: 30%;
+}
+
+.avatar{
+    width: 100%;
+    height: 25%;
+    background-color: darkorange;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+.avatar img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    transition: all 0.4s;
+}
+
+.avatar img:hover{
+    box-shadow: 0px 0px 12px black;
+    transform: scale(1.04);
+}
+
+.avatar h2{
+    font-size: 16px;
+}
+
+.avatar h3{
+    font-size: 12px;
+}
+
+.contact span a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+.contact span a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.contact{
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact span{
+    text-align: center;
+}
+#git-contact{
+    margin-right: 4px;
+}
+
+.contact span img{
+    width: 15px;
+    height: 15px;
+
+}
+
+.cnt{
+    width: 100%;
+    height: 21%;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+.line{
+    width: 75%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.phone-num{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+#number{
+    color: rgb(120, 120, 120);
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#mail{
+    color: rgb(120, 120, 120);
+}
+
+.skills{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+.skill-num{
+    width: 100%;
+    
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+
+.skill-bar{
+    width: 80%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.skill-progress1{
+    width: 80%;
+    height: 4px;
+    background-color: blue;
+}
+.skill-progress2{
+    width: 90%;
+    height: 4px;
+    background-color: blue;
+}
+.skill-progress3{
+    width: 75%;
+    height: 4px;
+    background-color: blue;
+}
+.skill-progress4{
+    width: 70%;
+    height: 4px;
+    background-color: blue;
+}
+
+.skill-progress5{
+    width: 70%;
+    height: 4px;
+    background-color: blue;
+}
+
+.skill-progress6{
+    width: 70%;
+    height: 4px;
+    background-color: blue;
+}
+
+.certification{
+    width: 100%;
+    height: 14%;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.line-certificate{
+    width: 85%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.certificate-txt{
+    display: flex;
+    color: white;
+}
+
+.certificates{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.objective{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: sans-serif;
+    max-width: 95%;
+    margin-top: 12px;
+    color: rgb(0, 0, 0);
+    height: 18%;
+}
+
+.objective h2{
+    color: blue;
+}
+
+.objective-line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.objective-para{
+    color: grey;
+}
+
+.line-certificate{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 0px;
+}
+
+.abt-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.work-exp{
+    font-family: sans-serif;
+}
+
+.work-exp h2{
+    color: blue;    
+    font-family: sans-serif;
+}
+
+.role-date{
+    display: flex;
+    justify-content: space-between;
+    height:20px ;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.arrow-img{
+    width: 15px;
+    height: 15px;
+}
+
+.arrow-img img{
+    width: 15px;
+    height: 10px;
+}
+
+.role-date span{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.comp-abt{
+    margin-bottom: 8px;
+}
+
+.abt-comp{
+    color: grey;
+}
+
+.projects{
+    font-family: sans-serif;
+
+}
+
+.projects h2{
+    color: blue;
+}
+
+.projects p{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.project-name span{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.education span{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.education p{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 1em;
+}
+
+.education h2{
+    font-family: sans-serif;
+    /* font-size: 1em; */
+    color: blue;
+}
+
+.education h3{
+    font-family: sans-serif;
+}
